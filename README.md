@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://twitter.com/tanishqvideo" target="blank"><img src="https://img.shields.io/twitter/follow/tanishqvideo?logo=twitter&style=for-the-badge" alt="tanishqvideo" /></a> </p>
 
-- 🔭 I’m currently working on **Spotify Data Analysis**
+- 🔭 I’m currently working on **Data Analysis**
 
 - 🌱 I’m currently learning **Python Libraries**
 
