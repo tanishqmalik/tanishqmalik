@@ -1,0 +1,31 @@
+name: Update Metrics
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Run every hour, adjust as needed
+
+jobs:
+  update_metrics:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Update Metrics
+        run: |
+          # Logic to update metrics in metrics_template.md
+          # For example, you can use curl or other tools to fetch data
+          # Replace the content of metrics_template.md with the updated metrics
+
+      - name: Commit changes
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@users.noreply.github.com'
+          git add metrics_template.md
+          git commit -m "Update metrics"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
