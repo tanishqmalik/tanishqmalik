@@ -1,4 +1,4 @@
-## [GitRoll Profile](![Metrics](/github-metrics.svg))
+## [GitRoll Profile](/github-metrics.svg)
 
 
 
